@@ -8,7 +8,12 @@ using System.Web.Http;
 namespace HTTP5101_Assignment_2.Controllers
 {
     public class J3Controller : ApiController
-    {
+    {/// <summary>
+    /// 
+    /// </summary>
+    /// <param name="availability"></param>
+    /// <returns></returns>
+    /// 
         [HttpGet]
         [Route("api/J2/DiceGame/{availability}")]
         public string SpecialEvent(string availability)

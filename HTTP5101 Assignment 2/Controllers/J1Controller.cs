@@ -10,7 +10,7 @@ namespace HTTP5101_Assignment_2.Controllers
     public class J1Controller : ApiController
     {
         /// <summary>
-        /// 
+        /// Calculates the total calories base on menu selection.
         /// </summary>
         /// <param name="burger"></param>
         /// <param name="drink"></param>
